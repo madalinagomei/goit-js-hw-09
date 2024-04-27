@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/02-timer.74f03cdb.js"></script><link rel="stylesheet" href="/02-timer.9bafac1a.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown timer</title>
+    <style>.timer {
+  justify-content: center;
+  gap: 50px;
+  margin-top: 150px;
+  font-size: 4em;
+  display: flex;
+}
+
+.field {
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 50px;
+  flex-direction: column;
+  padding: 20px;
+  display: flex;
+}
+
+input {
+  font-size: 1.5em;
+}
+
+button {
+  cursor: pointer;
+  background-color: #49a146;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 17px;
+  font-size: 1.6em;
+}
+</style>
+    <link rel="stylesheet" href="/01-color-switcher.101ee4ef.css">
+  </head>
+  <body>
+    <p><a href="/index.html">Go back</a></p>
+
+    <input type="text" id="datetime-picker">
+    <button type="button" data-start="">Start</button>
+
+    <div class="timer">
+      <div class="field">
+        <span class="value" data-days="">00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="field">
+        <span class="value" data-hours="">00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="field">
+        <span class="value" data-minutes="">00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="field">
+        <span class="value" data-seconds="">00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+
+    <script src="/02-timer.f9388f03.js" defer=""></script>
+  </body>
+</html>
